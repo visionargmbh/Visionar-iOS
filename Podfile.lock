@@ -1,0 +1,20 @@
+PODS:
+  - VARkit (1.0.1):
+    - Zip (~> 1.1)
+  - Zip (1.1.0)
+
+DEPENDENCIES:
+  - VARkit (~> 1.0)
+
+SPEC REPOS:
+  trunk:
+    - VARkit
+    - Zip
+
+SPEC CHECKSUMS:
+  VARkit: f4a0c043b9395af9c7d39ac1cc9a8d920c264cc0
+  Zip: 8877eede3dda76bcac281225c20e71c25270774c
+
+PODFILE CHECKSUM: 10b9c738e437c13c9b48bc5fb7e35141484e8a0b
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,4 @@
+framework module VARkit {
+  header "VARkit-Swift.h"
+  requires objc
+}

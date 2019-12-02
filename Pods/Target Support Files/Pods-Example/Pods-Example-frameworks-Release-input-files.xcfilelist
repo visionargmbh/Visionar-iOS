@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-frameworks.sh
+${PODS_ROOT}/VARkit/VARkit.framework
+${BUILT_PRODUCTS_DIR}/Zip/Zip.framework
