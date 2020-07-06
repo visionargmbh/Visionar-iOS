@@ -78,7 +78,6 @@ class ARViewController: VARViewController {
             print("Update completed")
         case .updateFailed(let error):
             print("Update failed: \(error)")
-        }
         case .alreadyUpToDate:
             print("Update completed - already up to date")
         @unknown default:
