@@ -79,9 +79,14 @@ class ARViewController: VARViewController {
         case .updateFailed(let error):
             print("Update failed: \(error)")
         }
+        case .alreadyUpToDate:
+            print("Update completed - already up to date")
+        @unknown default:
+            print("Uknown case")
+        }
     }
 }
 ```
 
 # Copyright
-Copyright 2019 visionar GmbH. All Rights Reserved.
+Copyright 2020 visionar GmbH. All Rights Reserved.
