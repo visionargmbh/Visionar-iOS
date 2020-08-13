@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Example
 //
-//  Created by Thomas Toffalori on 02.12.19.
+//  Created by visionar GmbH on 02.12.19.
 //  Copyright © 2019 visionar GmbH. All rights reserved.
 //
 

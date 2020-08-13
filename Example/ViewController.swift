@@ -7,7 +7,6 @@ class ViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let vc = segue.destination as! ARViewController
-        vc.modalPresentationStyle = .fullScreen
         vc.appKey = appKey
     }
 }

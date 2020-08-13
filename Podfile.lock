@@ -1,8 +1,8 @@
 PODS:
   - SwiftPhotoGallery (3.4.1)
-  - VARkit (1.1.1):
+  - VARkit (1.1.2):
     - SwiftPhotoGallery
-    - Zip (~> 1.1)
+    - Zip (~> 1.0)
   - Zip (1.1.0)
 
 DEPENDENCIES:
@@ -16,9 +16,9 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   SwiftPhotoGallery: 795b79e2596beb160fb978e232603da0811006ce
-  VARkit: 4300bbf5b299ead38b769de9387dc8bf92fff54f
+  VARkit: cd6e2c5435c0a2a8a9c0b72c453d1b32d1ee3f06
   Zip: 8877eede3dda76bcac281225c20e71c25270774c
 
 PODFILE CHECKSUM: 10b9c738e437c13c9b48bc5fb7e35141484e8a0b
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.3

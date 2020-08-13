@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,7 +19,7 @@
                                 <rect key="frame" x="178" y="433" width="58" height="30"/>
                                 <state key="normal" title="Start AR"/>
                                 <connections>
-                                    <segue destination="afo-2G-G7D" kind="show" id="Mfz-Ji-aLB"/>
+                                    <segue destination="afo-2G-G7D" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Mfz-Ji-aLB"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -40,16 +40,41 @@
             <objects>
                 <viewController id="afo-2G-G7D" customClass="ARViewController" customModule="Example" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oiK-c7-GEl">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="BGn-s6-rQC" userLabel="Loading View">
+                                <rect key="frame" x="0.0" y="410.5" width="414" height="75.5"/>
+                                <subviews>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="j85-8c-8XA">
+                                        <rect key="frame" x="188.5" y="0.0" width="37" height="37"/>
+                                    </activityIndicatorView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gQO-j3-YA3">
+                                        <rect key="frame" x="169.5" y="55" width="75" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="YsX-Br-DA7" firstAttribute="trailing" secondItem="BGn-s6-rQC" secondAttribute="trailing" id="1q8-oz-XgW"/>
+                            <constraint firstItem="BGn-s6-rQC" firstAttribute="centerX" secondItem="oiK-c7-GEl" secondAttribute="centerX" id="K1g-Ae-2gK"/>
+                            <constraint firstItem="BGn-s6-rQC" firstAttribute="leading" secondItem="YsX-Br-DA7" secondAttribute="leading" id="Kvc-DS-7Qc"/>
+                            <constraint firstItem="BGn-s6-rQC" firstAttribute="centerY" secondItem="oiK-c7-GEl" secondAttribute="centerY" id="n2z-n5-NcC"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="YsX-Br-DA7"/>
                     </view>
                     <navigationItem key="navigationItem" id="8O8-t0-ADb"/>
+                    <connections>
+                        <outlet property="loadingView" destination="BGn-s6-rQC" id="PXj-yy-VXa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d5E-oh-vcu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="955" y="138"/>
+            <point key="canvasLocation" x="953.62318840579712" y="137.94642857142856"/>
         </scene>
     </scenes>
 </document>
