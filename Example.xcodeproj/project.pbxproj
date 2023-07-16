@@ -3,11 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C9B9E6FE451AD0FB06ED0A7 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B676A6008B82C4B5AEF5879A /* Pods_Example.framework */; };
 		E9BCB1272395517F005FE8BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BCB1262395517F005FE8BA /* AppDelegate.swift */; };
 		E9BCB1292395517F005FE8BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BCB1282395517F005FE8BA /* SceneDelegate.swift */; };
 		E9BCB12B2395517F005FE8BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BCB12A2395517F005FE8BA /* ViewController.swift */; };
@@ -15,6 +14,7 @@
 		E9BCB13023955180005FE8BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9BCB12F23955180005FE8BA /* Assets.xcassets */; };
 		E9BCB13323955180005FE8BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9BCB13123955180005FE8BA /* LaunchScreen.storyboard */; };
 		E9BCB13B239552B4005FE8BA /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BCB13A239552B4005FE8BA /* ARViewController.swift */; };
+		E9D8A2622A6432D100ECCE53 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B676A6008B82C4B5AEF5879A /* Pods_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C9B9E6FE451AD0FB06ED0A7 /* Pods_Example.framework in Frameworks */,
+				E9D8A2622A6432D100ECCE53 /* Pods_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,8 +122,9 @@
 		E9BCB11B2395517F005FE8BA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1120;
-				LastUpgradeCheck = 1120;
+				LastUpgradeCheck = 1430;
 				ORGANIZATIONNAME = "visionar GmbH";
 				TargetAttributes = {
 					E9BCB1222395517F005FE8BA = {
@@ -264,6 +265,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -324,6 +326,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;

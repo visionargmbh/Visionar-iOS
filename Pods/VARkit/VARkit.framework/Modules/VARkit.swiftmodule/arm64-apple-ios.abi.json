@@ -1,0 +1,4440 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VARkit"
+      },
+      {
+        "kind": "Import",
+        "name": "ZIPFoundation",
+        "printedName": "ZIPFoundation",
+        "declKind": "Import",
+        "moduleName": "VARkit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VARkit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VARkit"
+      },
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "VARkit"
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "VARkit"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "VARkit"
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "VARkit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VARkit"
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "VARkit"
+      },
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "VARkit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VARkit"
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "VARkit"
+      },
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "VARkit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VARkit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VARError",
+        "printedName": "VARError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "alreadySynching",
+            "printedName": "alreadySynching",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VARkit.VARError.Type) -> VARkit.VARError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VARError",
+                    "printedName": "VARkit.VARError",
+                    "usr": "s:6VARkit8VARErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VARkit.VARError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VARError",
+                        "printedName": "VARkit.VARError",
+                        "usr": "s:6VARkit8VARErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6VARkit8VARErrorO15alreadySynchingyA2CmF",
+            "mangledName": "$s6VARkit8VARErrorO15alreadySynchingyA2CmF",
+            "moduleName": "VARkit"
+          },
+          {
+            "kind": "Var",
+            "name": "networkError",
+            "printedName": "networkError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VARkit.VARError.Type) -> (Swift.Error) -> VARkit.VARError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> VARkit.VARError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VARError",
+                        "printedName": "VARkit.VARError",
+                        "usr": "s:6VARkit8VARErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(error: Swift.Error)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VARkit.VARError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VARError",
+                        "printedName": "VARkit.VARError",
+                        "usr": "s:6VARkit8VARErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6VARkit8VARErrorO12networkErroryACs0D0_p_tcACmF",
+            "mangledName": "$s6VARkit8VARErrorO12networkErroryACs0D0_p_tcACmF",
+            "moduleName": "VARkit"
+          },
+          {
+            "kind": "Var",
+            "name": "serverError",
+            "printedName": "serverError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VARkit.VARError.Type) -> VARkit.VARError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VARError",
+                    "printedName": "VARkit.VARError",
+                    "usr": "s:6VARkit8VARErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VARkit.VARError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VARError",
+                        "printedName": "VARkit.VARError",
+                        "usr": "s:6VARkit8VARErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6VARkit8VARErrorO11serverErroryA2CmF",
+            "mangledName": "$s6VARkit8VARErrorO11serverErroryA2CmF",
+            "moduleName": "VARkit"
+          },
+          {
+            "kind": "Var",
+            "name": "parsingError",
+            "printedName": "parsingError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VARkit.VARError.Type) -> (Swift.Error) -> VARkit.VARError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> VARkit.VARError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VARError",
+                        "printedName": "VARkit.VARError",
+                        "usr": "s:6VARkit8VARErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(error: Swift.Error)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VARkit.VARError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VARError",
+                        "printedName": "VARkit.VARError",
+                        "usr": "s:6VARkit8VARErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6VARkit8VARErrorO12parsingErroryACs0D0_p_tcACmF",
+            "mangledName": "$s6VARkit8VARErrorO12parsingErroryACs0D0_p_tcACmF",
+            "moduleName": "VARkit"
+          },
+          {
+            "kind": "Var",
+            "name": "fileError",
+            "printedName": "fileError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VARkit.VARError.Type) -> (Swift.Error) -> VARkit.VARError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> VARkit.VARError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VARError",
+                        "printedName": "VARkit.VARError",
+                        "usr": "s:6VARkit8VARErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(error: Swift.Error)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VARkit.VARError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VARError",
+                        "printedName": "VARkit.VARError",
+                        "usr": "s:6VARkit8VARErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6VARkit8VARErrorO9fileErroryACs0D0_p_tcACmF",
+            "mangledName": "$s6VARkit8VARErrorO9fileErroryACs0D0_p_tcACmF",
+            "moduleName": "VARkit"
+          },
+          {
+            "kind": "Var",
+            "name": "alreadyUpToDate",
+            "printedName": "alreadyUpToDate",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VARkit.VARError.Type) -> VARkit.VARError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VARError",
+                    "printedName": "VARkit.VARError",
+                    "usr": "s:6VARkit8VARErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VARkit.VARError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VARError",
+                        "printedName": "VARkit.VARError",
+                        "usr": "s:6VARkit8VARErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6VARkit8VARErrorO15alreadyUpToDateyA2CmF",
+            "mangledName": "$s6VARkit8VARErrorO15alreadyUpToDateyA2CmF",
+            "moduleName": "VARkit"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6VARkit8VARErrorO",
+        "mangledName": "$s6VARkit8VARErrorO",
+        "moduleName": "VARkit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "VARkit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VARStatus",
+        "printedName": "VARStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "updateStarted",
+            "printedName": "updateStarted",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VARkit.VARStatus.Type) -> (Swift.Bool) -> VARkit.VARStatus",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> VARkit.VARStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VARStatus",
+                        "printedName": "VARkit.VARStatus",
+                        "usr": "s:6VARkit9VARStatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(firstTime: Swift.Bool)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VARkit.VARStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VARStatus",
+                        "printedName": "VARkit.VARStatus",
+                        "usr": "s:6VARkit9VARStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6VARkit9VARStatusO13updateStartedyACSb_tcACmF",
+            "mangledName": "$s6VARkit9VARStatusO13updateStartedyACSb_tcACmF",
+            "moduleName": "VARkit"
+          },
+          {
+            "kind": "Var",
+            "name": "downloadStarted",
+            "printedName": "downloadStarted",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VARkit.VARStatus.Type) -> VARkit.VARStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VARStatus",
+                    "printedName": "VARkit.VARStatus",
+                    "usr": "s:6VARkit9VARStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VARkit.VARStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VARStatus",
+                        "printedName": "VARkit.VARStatus",
+                        "usr": "s:6VARkit9VARStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6VARkit9VARStatusO15downloadStartedyA2CmF",
+            "mangledName": "$s6VARkit9VARStatusO15downloadStartedyA2CmF",
+            "moduleName": "VARkit"
+          },
+          {
+            "kind": "Var",
+            "name": "downloadProgress",
+            "printedName": "downloadProgress",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VARkit.VARStatus.Type) -> (Swift.Float) -> VARkit.VARStatus",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Float) -> VARkit.VARStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VARStatus",
+                        "printedName": "VARkit.VARStatus",
+                        "usr": "s:6VARkit9VARStatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(percentage: Swift.Float)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Float",
+                            "printedName": "Swift.Float",
+                            "usr": "s:Sf"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VARkit.VARStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VARStatus",
+                        "printedName": "VARkit.VARStatus",
+                        "usr": "s:6VARkit9VARStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6VARkit9VARStatusO16downloadProgressyACSf_tcACmF",
+            "mangledName": "$s6VARkit9VARStatusO16downloadProgressyACSf_tcACmF",
+            "moduleName": "VARkit"
+          },
+          {
+            "kind": "Var",
+            "name": "downloadCompleted",
+            "printedName": "downloadCompleted",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VARkit.VARStatus.Type) -> VARkit.VARStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VARStatus",
+                    "printedName": "VARkit.VARStatus",
+                    "usr": "s:6VARkit9VARStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VARkit.VARStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VARStatus",
+                        "printedName": "VARkit.VARStatus",
+                        "usr": "s:6VARkit9VARStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6VARkit9VARStatusO17downloadCompletedyA2CmF",
+            "mangledName": "$s6VARkit9VARStatusO17downloadCompletedyA2CmF",
+            "moduleName": "VARkit"
+          },
+          {
+            "kind": "Var",
+            "name": "updateCompleted",
+            "printedName": "updateCompleted",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VARkit.VARStatus.Type) -> VARkit.VARStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VARStatus",
+                    "printedName": "VARkit.VARStatus",
+                    "usr": "s:6VARkit9VARStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VARkit.VARStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VARStatus",
+                        "printedName": "VARkit.VARStatus",
+                        "usr": "s:6VARkit9VARStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6VARkit9VARStatusO15updateCompletedyA2CmF",
+            "mangledName": "$s6VARkit9VARStatusO15updateCompletedyA2CmF",
+            "moduleName": "VARkit"
+          },
+          {
+            "kind": "Var",
+            "name": "updateFailed",
+            "printedName": "updateFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VARkit.VARStatus.Type) -> (VARkit.VARError) -> VARkit.VARStatus",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VARkit.VARError) -> VARkit.VARStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VARStatus",
+                        "printedName": "VARkit.VARStatus",
+                        "usr": "s:6VARkit9VARStatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(error: VARkit.VARError)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "VARError",
+                            "printedName": "VARkit.VARError",
+                            "usr": "s:6VARkit8VARErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VARkit.VARStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VARStatus",
+                        "printedName": "VARkit.VARStatus",
+                        "usr": "s:6VARkit9VARStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6VARkit9VARStatusO12updateFailedyAcA8VARErrorO_tcACmF",
+            "mangledName": "$s6VARkit9VARStatusO12updateFailedyAcA8VARErrorO_tcACmF",
+            "moduleName": "VARkit"
+          },
+          {
+            "kind": "Var",
+            "name": "alreadyUpToDate",
+            "printedName": "alreadyUpToDate",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VARkit.VARStatus.Type) -> VARkit.VARStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VARStatus",
+                    "printedName": "VARkit.VARStatus",
+                    "usr": "s:6VARkit9VARStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VARkit.VARStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VARStatus",
+                        "printedName": "VARkit.VARStatus",
+                        "usr": "s:6VARkit9VARStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6VARkit9VARStatusO15alreadyUpToDateyA2CmF",
+            "mangledName": "$s6VARkit9VARStatusO15alreadyUpToDateyA2CmF",
+            "moduleName": "VARkit"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6VARkit9VARStatusO",
+        "mangledName": "$s6VARkit9VARStatusO",
+        "moduleName": "VARkit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VARkit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VARkit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "VARkit"
+      },
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "VARkit"
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "VARkit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VARkit"
+      },
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "VARkit"
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "VARkit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftPhotoGallery",
+        "printedName": "SwiftPhotoGallery",
+        "declKind": "Import",
+        "moduleName": "VARkit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VARStatusDelegate",
+        "printedName": "VARStatusDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "statusDidChange",
+            "printedName": "statusDidChange(status:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VARStatus",
+                "printedName": "VARkit.VARStatus",
+                "usr": "s:6VARkit9VARStatusO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6VARkit17VARStatusDelegateP15statusDidChange0D0yAA0B0O_tF",
+            "mangledName": "$s6VARkit17VARStatusDelegateP15statusDidChange0D0yAA0B0O_tF",
+            "moduleName": "VARkit",
+            "genericSig": "<τ_0_0 where τ_0_0 : VARkit.VARStatusDelegate>",
+            "sugared_genericSig": "<Self where Self : VARkit.VARStatusDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6VARkit17VARStatusDelegateP",
+        "mangledName": "$s6VARkit17VARStatusDelegateP",
+        "moduleName": "VARkit",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VARViewController",
+        "printedName": "VARViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "appKey",
+            "printedName": "appKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6VARkit17VARViewControllerC6appKeySSSgvp",
+            "mangledName": "$s6VARkit17VARViewControllerC6appKeySSSgvp",
+            "moduleName": "VARkit",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6VARkit17VARViewControllerC6appKeySSSgvg",
+                "mangledName": "$s6VARkit17VARViewControllerC6appKeySSSgvg",
+                "moduleName": "VARkit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6VARkit17VARViewControllerC6appKeySSSgvs",
+                "mangledName": "$s6VARkit17VARViewControllerC6appKeySSSgvs",
+                "moduleName": "VARkit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6VARkit17VARViewControllerC6appKeySSSgvM",
+                "mangledName": "$s6VARkit17VARViewControllerC6appKeySSSgvM",
+                "moduleName": "VARkit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isStaging",
+            "printedName": "isStaging",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6VARkit17VARViewControllerC9isStagingSbvp",
+            "mangledName": "$s6VARkit17VARViewControllerC9isStagingSbvp",
+            "moduleName": "VARkit",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6VARkit17VARViewControllerC9isStagingSbvg",
+                "mangledName": "$s6VARkit17VARViewControllerC9isStagingSbvg",
+                "moduleName": "VARkit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6VARkit17VARViewControllerC9isStagingSbvs",
+                "mangledName": "$s6VARkit17VARViewControllerC9isStagingSbvs",
+                "moduleName": "VARkit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6VARkit17VARViewControllerC9isStagingSbvM",
+                "mangledName": "$s6VARkit17VARViewControllerC9isStagingSbvM",
+                "moduleName": "VARkit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isOldCode",
+            "printedName": "isOldCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6VARkit17VARViewControllerC9isOldCodeSbvp",
+            "mangledName": "$s6VARkit17VARViewControllerC9isOldCodeSbvp",
+            "moduleName": "VARkit",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6VARkit17VARViewControllerC9isOldCodeSbvg",
+                "mangledName": "$s6VARkit17VARViewControllerC9isOldCodeSbvg",
+                "moduleName": "VARkit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6VARkit17VARViewControllerC9isOldCodeSbvs",
+                "mangledName": "$s6VARkit17VARViewControllerC9isOldCodeSbvs",
+                "moduleName": "VARkit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6VARkit17VARViewControllerC9isOldCodeSbvM",
+                "mangledName": "$s6VARkit17VARViewControllerC9isOldCodeSbvM",
+                "moduleName": "VARkit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VARkit@objc(cs)VARViewController(im)viewDidLoad",
+            "mangledName": "$s6VARkit17VARViewControllerC11viewDidLoadyyF",
+            "moduleName": "VARkit",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidAppear",
+            "printedName": "viewDidAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VARkit@objc(cs)VARViewController(im)viewDidAppear:",
+            "mangledName": "$s6VARkit17VARViewControllerC13viewDidAppearyySbF",
+            "moduleName": "VARkit",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillDisappear",
+            "printedName": "viewWillDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VARkit@objc(cs)VARViewController(im)viewWillDisappear:",
+            "mangledName": "$s6VARkit17VARViewControllerC17viewWillDisappearyySbF",
+            "moduleName": "VARkit",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewWillDisappear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "supportedInterfaceOrientations",
+            "printedName": "supportedInterfaceOrientations",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientationMask",
+                "printedName": "UIKit.UIInterfaceOrientationMask",
+                "usr": "c:@E@UIInterfaceOrientationMask"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@VARkit@objc(cs)VARViewController(py)supportedInterfaceOrientations",
+            "mangledName": "$s6VARkit17VARViewControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvp",
+            "moduleName": "VARkit",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "supportedInterfaceOrientations",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIInterfaceOrientationMask",
+                    "printedName": "UIKit.UIInterfaceOrientationMask",
+                    "usr": "c:@E@UIInterfaceOrientationMask"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@VARkit@objc(cs)VARViewController(im)supportedInterfaceOrientations",
+                "mangledName": "$s6VARkit17VARViewControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvg",
+                "moduleName": "VARkit",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "supportedInterfaceOrientations",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "prefersStatusBarHidden",
+            "printedName": "prefersStatusBarHidden",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@VARkit@objc(cs)VARViewController(py)prefersStatusBarHidden",
+            "mangledName": "$s6VARkit17VARViewControllerC22prefersStatusBarHiddenSbvp",
+            "moduleName": "VARkit",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "prefersStatusBarHidden",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@VARkit@objc(cs)VARViewController(im)prefersStatusBarHidden",
+                "mangledName": "$s6VARkit17VARViewControllerC22prefersStatusBarHiddenSbvg",
+                "moduleName": "VARkit",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "prefersStatusBarHidden",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "prefersHomeIndicatorAutoHidden",
+            "printedName": "prefersHomeIndicatorAutoHidden",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@VARkit@objc(cs)VARViewController(py)prefersHomeIndicatorAutoHidden",
+            "mangledName": "$s6VARkit17VARViewControllerC30prefersHomeIndicatorAutoHiddenSbvp",
+            "moduleName": "VARkit",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "prefersHomeIndicatorAutoHidden",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@VARkit@objc(cs)VARViewController(im)prefersHomeIndicatorAutoHidden",
+                "mangledName": "$s6VARkit17VARViewControllerC30prefersHomeIndicatorAutoHiddenSbvg",
+                "moduleName": "VARkit",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "prefersHomeIndicatorAutoHidden",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "refresh",
+            "printedName": "refresh()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6VARkit17VARViewControllerC7refreshyyF",
+            "mangledName": "$s6VARkit17VARViewControllerC7refreshyyF",
+            "moduleName": "VARkit",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cancelSync",
+            "printedName": "cancelSync()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6VARkit17VARViewControllerC10cancelSyncyyF",
+            "mangledName": "$s6VARkit17VARViewControllerC10cancelSyncyyF",
+            "moduleName": "VARkit",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "statusDidChange",
+            "printedName": "statusDidChange(status:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VARStatus",
+                "printedName": "VARkit.VARStatus",
+                "usr": "s:6VARkit9VARStatusO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6VARkit17VARViewControllerC15statusDidChange0D0yAA9VARStatusO_tF",
+            "mangledName": "$s6VARkit17VARViewControllerC15statusDidChange0D0yAA9VARStatusO_tF",
+            "moduleName": "VARkit",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "touchesEnded",
+            "printedName": "touchesEnded(_:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<UIKit.UITouch>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UITouch",
+                    "printedName": "UIKit.UITouch",
+                    "usr": "c:objc(cs)UITouch"
+                  }
+                ],
+                "usr": "s:Sh"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIEvent?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIEvent",
+                    "printedName": "UIKit.UIEvent",
+                    "usr": "c:objc(cs)UIEvent"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VARkit@objc(cs)VARViewController(im)touchesEnded:withEvent:",
+            "mangledName": "$s6VARkit17VARViewControllerC12touchesEnded_4withyShySo7UITouchCG_So7UIEventCSgtF",
+            "moduleName": "VARkit",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "touchesEnded:withEvent:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "numberOfImagesInGallery",
+            "printedName": "numberOfImagesInGallery(gallery:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SwiftPhotoGallery",
+                "printedName": "SwiftPhotoGallery.SwiftPhotoGallery",
+                "usr": "c:@M@SwiftPhotoGallery@objc(cs)SwiftPhotoGallery"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VARkit@objc(cs)VARViewController(im)numberOfImagesInGalleryWithGallery:",
+            "mangledName": "$s6VARkit17VARViewControllerC23numberOfImagesInGallery7gallerySi010SwiftPhotoH0AFC_tF",
+            "moduleName": "VARkit",
+            "objc_name": "numberOfImagesInGalleryWithGallery:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "imageInGallery",
+            "printedName": "imageInGallery(gallery:forIndex:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SwiftPhotoGallery",
+                "printedName": "SwiftPhotoGallery.SwiftPhotoGallery",
+                "usr": "c:@M@SwiftPhotoGallery@objc(cs)SwiftPhotoGallery"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VARkit@objc(cs)VARViewController(im)imageInGalleryWithGallery:forIndex:",
+            "mangledName": "$s6VARkit17VARViewControllerC14imageInGallery7gallery8forIndexSo7UIImageCSg010SwiftPhotoF0AJC_SitF",
+            "moduleName": "VARkit",
+            "objc_name": "imageInGalleryWithGallery:forIndex:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "galleryDidTapToClose",
+            "printedName": "galleryDidTapToClose(gallery:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SwiftPhotoGallery",
+                "printedName": "SwiftPhotoGallery.SwiftPhotoGallery",
+                "usr": "c:@M@SwiftPhotoGallery@objc(cs)SwiftPhotoGallery"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VARkit@objc(cs)VARViewController(im)galleryDidTapToCloseWithGallery:",
+            "mangledName": "$s6VARkit17VARViewControllerC20galleryDidTapToClose0D0y17SwiftPhotoGalleryAFC_tF",
+            "moduleName": "VARkit",
+            "objc_name": "galleryDidTapToCloseWithGallery:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "renderer",
+            "printedName": "renderer(_:didRemove:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCNSceneRenderer",
+                "printedName": "SceneKit.SCNSceneRenderer",
+                "usr": "c:objc(pl)SCNSceneRenderer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCNNode",
+                "printedName": "SceneKit.SCNNode",
+                "usr": "c:objc(cs)SCNNode"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ARAnchor",
+                "printedName": "ARKit.ARAnchor",
+                "usr": "c:objc(cs)ARAnchor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VARkit@objc(cs)VARViewController(im)renderer:didRemoveNode:forAnchor:",
+            "mangledName": "$s6VARkit17VARViewControllerC8renderer_9didRemove3forySo16SCNSceneRenderer_p_So7SCNNodeCSo8ARAnchorCtF",
+            "moduleName": "VARkit",
+            "objc_name": "renderer:didRemoveNode:forAnchor:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "renderer",
+            "printedName": "renderer(_:didUpdate:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCNSceneRenderer",
+                "printedName": "SceneKit.SCNSceneRenderer",
+                "usr": "c:objc(pl)SCNSceneRenderer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCNNode",
+                "printedName": "SceneKit.SCNNode",
+                "usr": "c:objc(cs)SCNNode"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ARAnchor",
+                "printedName": "ARKit.ARAnchor",
+                "usr": "c:objc(cs)ARAnchor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VARkit@objc(cs)VARViewController(im)renderer:didUpdateNode:forAnchor:",
+            "mangledName": "$s6VARkit17VARViewControllerC8renderer_9didUpdate3forySo16SCNSceneRenderer_p_So7SCNNodeCSo8ARAnchorCtF",
+            "moduleName": "VARkit",
+            "objc_name": "renderer:didUpdateNode:forAnchor:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "renderer",
+            "printedName": "renderer(_:didAdd:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCNSceneRenderer",
+                "printedName": "SceneKit.SCNSceneRenderer",
+                "usr": "c:objc(pl)SCNSceneRenderer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCNNode",
+                "printedName": "SceneKit.SCNNode",
+                "usr": "c:objc(cs)SCNNode"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ARAnchor",
+                "printedName": "ARKit.ARAnchor",
+                "usr": "c:objc(cs)ARAnchor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VARkit@objc(cs)VARViewController(im)renderer:didAddNode:forAnchor:",
+            "mangledName": "$s6VARkit17VARViewControllerC8renderer_6didAdd3forySo16SCNSceneRenderer_p_So7SCNNodeCSo8ARAnchorCtF",
+            "moduleName": "VARkit",
+            "objc_name": "renderer:didAddNode:forAnchor:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VARViewController",
+                "printedName": "VARkit.VARViewController",
+                "usr": "c:@M@VARkit@objc(cs)VARViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VARkit@objc(cs)VARViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s6VARkit17VARViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "VARkit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VARkit.VARViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VARViewController",
+                    "printedName": "VARkit.VARViewController",
+                    "usr": "c:@M@VARkit@objc(cs)VARViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VARkit@objc(cs)VARViewController(im)initWithCoder:",
+            "mangledName": "$s6VARkit17VARViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "VARkit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "session",
+            "printedName": "session(_:cameraDidChangeTrackingState:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ARSession",
+                "printedName": "ARKit.ARSession",
+                "usr": "c:objc(cs)ARSession"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ARCamera",
+                "printedName": "ARKit.ARCamera",
+                "usr": "c:objc(cs)ARCamera"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@VARkit@objc(cs)VARViewController(im)session:cameraDidChangeTrackingState:",
+            "mangledName": "$s6VARkit17VARViewControllerC7session_28cameraDidChangeTrackingStateySo9ARSessionC_So8ARCameraCtF",
+            "moduleName": "VARkit",
+            "objc_name": "session:cameraDidChangeTrackingState:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "session",
+            "printedName": "session(_:didFailWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ARSession",
+                "printedName": "ARKit.ARSession",
+                "usr": "c:objc(cs)ARSession"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@VARkit@objc(cs)VARViewController(im)session:didFailWithError:",
+            "mangledName": "$s6VARkit17VARViewControllerC7session_16didFailWithErrorySo9ARSessionC_s0H0_ptF",
+            "moduleName": "VARkit",
+            "objc_name": "session:didFailWithError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sessionWasInterrupted",
+            "printedName": "sessionWasInterrupted(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ARSession",
+                "printedName": "ARKit.ARSession",
+                "usr": "c:objc(cs)ARSession"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@VARkit@objc(cs)VARViewController(im)sessionWasInterrupted:",
+            "mangledName": "$s6VARkit17VARViewControllerC21sessionWasInterruptedyySo9ARSessionCF",
+            "moduleName": "VARkit",
+            "objc_name": "sessionWasInterrupted:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sessionInterruptionEnded",
+            "printedName": "sessionInterruptionEnded(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ARSession",
+                "printedName": "ARKit.ARSession",
+                "usr": "c:objc(cs)ARSession"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@VARkit@objc(cs)VARViewController(im)sessionInterruptionEnded:",
+            "mangledName": "$s6VARkit17VARViewControllerC24sessionInterruptionEndedyySo9ARSessionCF",
+            "moduleName": "VARkit",
+            "objc_name": "sessionInterruptionEnded:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sessionShouldAttemptRelocalization",
+            "printedName": "sessionShouldAttemptRelocalization(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ARSession",
+                "printedName": "ARKit.ARSession",
+                "usr": "c:objc(cs)ARSession"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@VARkit@objc(cs)VARViewController(im)sessionShouldAttemptRelocalization:",
+            "mangledName": "$s6VARkit17VARViewControllerC34sessionShouldAttemptRelocalizationySbSo9ARSessionCF",
+            "moduleName": "VARkit",
+            "objc_name": "sessionShouldAttemptRelocalization:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@VARkit@objc(cs)VARViewController",
+        "mangledName": "$s6VARkit17VARViewControllerC",
+        "moduleName": "VARkit",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "VARStatusDelegate",
+            "printedName": "VARStatusDelegate",
+            "usr": "s:6VARkit17VARStatusDelegateP",
+            "mangledName": "$s6VARkit17VARStatusDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SwiftPhotoGalleryDataSource",
+            "printedName": "SwiftPhotoGalleryDataSource",
+            "usr": "c:@M@SwiftPhotoGallery@objc(pl)SwiftPhotoGalleryDataSource",
+            "mangledName": "$s17SwiftPhotoGallery0abC10DataSourceP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SwiftPhotoGalleryDelegate",
+            "printedName": "SwiftPhotoGalleryDelegate",
+            "usr": "c:@M@SwiftPhotoGallery@objc(pl)SwiftPhotoGalleryDelegate",
+            "mangledName": "$s17SwiftPhotoGallery0abC8DelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VARkit"
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "VARkit"
+      },
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "VARkit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VARkit"
+      },
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "VARkit"
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "VARkit"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "VARkit"
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "VARkit"
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "VARkit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ChromaKeyMaterial",
+        "printedName": "ChromaKeyMaterial",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "backgroundColor",
+            "printedName": "backgroundColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6VARkit17ChromaKeyMaterialC15backgroundColorSo7UIColorCvp",
+            "mangledName": "$s6VARkit17ChromaKeyMaterialC15backgroundColorSo7UIColorCvp",
+            "moduleName": "VARkit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6VARkit17ChromaKeyMaterialC15backgroundColorSo7UIColorCvg",
+                "mangledName": "$s6VARkit17ChromaKeyMaterialC15backgroundColorSo7UIColorCvg",
+                "moduleName": "VARkit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6VARkit17ChromaKeyMaterialC15backgroundColorSo7UIColorCvs",
+                "mangledName": "$s6VARkit17ChromaKeyMaterialC15backgroundColorSo7UIColorCvs",
+                "moduleName": "VARkit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6VARkit17ChromaKeyMaterialC15backgroundColorSo7UIColorCvM",
+                "mangledName": "$s6VARkit17ChromaKeyMaterialC15backgroundColorSo7UIColorCvM",
+                "moduleName": "VARkit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "thresholdSensitivity",
+            "printedName": "thresholdSensitivity",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6VARkit17ChromaKeyMaterialC20thresholdSensitivitySfvp",
+            "mangledName": "$s6VARkit17ChromaKeyMaterialC20thresholdSensitivitySfvp",
+            "moduleName": "VARkit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6VARkit17ChromaKeyMaterialC20thresholdSensitivitySfvg",
+                "mangledName": "$s6VARkit17ChromaKeyMaterialC20thresholdSensitivitySfvg",
+                "moduleName": "VARkit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6VARkit17ChromaKeyMaterialC20thresholdSensitivitySfvs",
+                "mangledName": "$s6VARkit17ChromaKeyMaterialC20thresholdSensitivitySfvs",
+                "moduleName": "VARkit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6VARkit17ChromaKeyMaterialC20thresholdSensitivitySfvM",
+                "mangledName": "$s6VARkit17ChromaKeyMaterialC20thresholdSensitivitySfvM",
+                "moduleName": "VARkit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "smoothing",
+            "printedName": "smoothing",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6VARkit17ChromaKeyMaterialC9smoothingSfvp",
+            "mangledName": "$s6VARkit17ChromaKeyMaterialC9smoothingSfvp",
+            "moduleName": "VARkit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6VARkit17ChromaKeyMaterialC9smoothingSfvg",
+                "mangledName": "$s6VARkit17ChromaKeyMaterialC9smoothingSfvg",
+                "moduleName": "VARkit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6VARkit17ChromaKeyMaterialC9smoothingSfvs",
+                "mangledName": "$s6VARkit17ChromaKeyMaterialC9smoothingSfvs",
+                "moduleName": "VARkit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6VARkit17ChromaKeyMaterialC9smoothingSfvM",
+                "mangledName": "$s6VARkit17ChromaKeyMaterialC9smoothingSfvM",
+                "moduleName": "VARkit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(backgroundColor:thresholdSensitivity:smoothing:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ChromaKeyMaterial",
+                "printedName": "VARkit.ChromaKeyMaterial",
+                "usr": "c:@M@VARkit@objc(cs)ChromaKeyMaterial"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "hasDefaultArg": true,
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "hasDefaultArg": true,
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6VARkit17ChromaKeyMaterialC15backgroundColor20thresholdSensitivity9smoothingACSo7UIColorC_S2ftcfc",
+            "mangledName": "$s6VARkit17ChromaKeyMaterialC15backgroundColor20thresholdSensitivity9smoothingACSo7UIColorC_S2ftcfc",
+            "moduleName": "VARkit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VARkit.ChromaKeyMaterial?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChromaKeyMaterial",
+                    "printedName": "VARkit.ChromaKeyMaterial",
+                    "usr": "c:@M@VARkit@objc(cs)ChromaKeyMaterial"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VARkit@objc(cs)ChromaKeyMaterial(im)initWithCoder:",
+            "mangledName": "$s6VARkit17ChromaKeyMaterialC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "VARkit",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ChromaKeyMaterial",
+                "printedName": "VARkit.ChromaKeyMaterial",
+                "usr": "c:@M@VARkit@objc(cs)ChromaKeyMaterial"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VARkit@objc(cs)ChromaKeyMaterial(im)init",
+            "mangledName": "$s6VARkit17ChromaKeyMaterialCACycfc",
+            "moduleName": "VARkit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@VARkit@objc(cs)ChromaKeyMaterial",
+        "mangledName": "$s6VARkit17ChromaKeyMaterialC",
+        "moduleName": "VARkit",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)SCNMaterial",
+        "superclassNames": [
+          "SceneKit.SCNMaterial",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VARkit"
+      },
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "VARkit"
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "VARkit"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 760,
+      "length": 23,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 768,
+      "length": 1,
+      "value": "\"\/configuration\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 854,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 894,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 963,
+      "length": 8,
+      "value": "\"appkey\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1332,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 1365,
+      "length": 36,
+      "value": "\"Response StatusCode: \""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 1400,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 1476,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 1629,
+      "length": 34,
+      "value": "\"response did no include any data\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 2276,
+      "length": 6,
+      "value": "\"http\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGateway.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3671,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 3869,
+      "length": 35,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 3877,
+      "length": 1,
+      "value": "\"\/prepareTargetsForDownload\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 3975,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 4015,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 4084,
+      "length": 8,
+      "value": "\"appkey\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 4208,
+      "length": 13,
+      "value": "\"lastupdated\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4649,
+      "length": 3,
+      "value": "204"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 4677,
+      "length": 36,
+      "value": "\"Response StatusCode: \""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 4712,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4839,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 4872,
+      "length": 36,
+      "value": "\"Response StatusCode: \""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 4907,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 4983,
+      "length": 17,
+      "value": "\"statusCodeError\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 5151,
+      "length": 34,
+      "value": "\"response did no include any data\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 5371,
+      "length": 13,
+      "value": "\"targets.zip\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 5681,
+      "length": 28,
+      "value": "\"Unexpected error: \""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 5708,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 5733,
+      "length": 76,
+      "value": "\"failed to write the response data to file..trying to start download task..\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 6040,
+      "length": 37,
+      "value": "\"provided data was not a correct url\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 46,
+      "length": 10,
+      "value": "\"VARkit.VARGateway\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 6522,
+      "length": 22,
+      "value": "\"didCompleteWithError\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6552,
+      "length": 3,
+      "value": "900"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 6821,
+      "length": 27,
+      "value": "\"didBecomeInvalidWithError\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6856,
+      "length": 3,
+      "value": "900"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 7239,
+      "length": 13,
+      "value": "\"targets.zip\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARStorage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 872,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARStorage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1215,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARStorage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1317,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARStorage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1580,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARVideoNode.swift",
+      "kind": "BooleanLiteral",
+      "offset": 157,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARVideoNode.swift",
+      "kind": "StringLiteral",
+      "offset": 323,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARVideoNode.swift",
+      "kind": "FloatLiteral",
+      "offset": 853,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARVideoNode.swift",
+      "kind": "StringLiteral",
+      "offset": 1018,
+      "length": 6,
+      "value": "\"play\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARVideoNode.swift",
+      "kind": "FloatLiteral",
+      "offset": 1175,
+      "length": 4,
+      "value": "0.01"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARVideoNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1310,
+      "length": 4,
+      "value": "1280"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARVideoNode.swift",
+      "kind": "FloatLiteral",
+      "offset": 1324,
+      "length": 5,
+      "value": "720.0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARVideoNode.swift",
+      "kind": "FloatLiteral",
+      "offset": 1460,
+      "length": 6,
+      "value": "1280.0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARVideoNode.swift",
+      "kind": "FloatLiteral",
+      "offset": 1476,
+      "length": 5,
+      "value": "720.0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARVideoNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1586,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARVideoNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1617,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARVideoNode.swift",
+      "kind": "FloatLiteral",
+      "offset": 1647,
+      "length": 4,
+      "value": "-1.0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARVideoNode.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1681,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARVideoNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1736,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARVideoNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1746,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARVideoNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1755,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARVideoNode.swift",
+      "kind": "FloatLiteral",
+      "offset": 1765,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARVideoNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2008,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARVideoNode.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2160,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARVideoNode.swift",
+      "kind": "StringLiteral",
+      "offset": 2254,
+      "length": 6,
+      "value": "\"play\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARVideoNode.swift",
+      "kind": "StringLiteral",
+      "offset": 2812,
+      "length": 6,
+      "value": "\"play\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARVideoNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2977,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARVideoNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2987,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARVideoNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2996,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARVideoNode.swift",
+      "kind": "FloatLiteral",
+      "offset": 3006,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARVideoNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3127,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARVideoNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3180,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARVideoNode.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3680,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARVideoNode.swift",
+      "kind": "StringLiteral",
+      "offset": 3778,
+      "length": 6,
+      "value": "\"play\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARVideoNode.swift",
+      "kind": "StringLiteral",
+      "offset": 3951,
+      "length": 5,
+      "value": "\"png\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARVideoNode.swift",
+      "kind": "StringLiteral",
+      "offset": 82,
+      "length": 12,
+      "value": "\"VARkit.VARVideoNode\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARImageNode.swift",
+      "kind": "FloatLiteral",
+      "offset": 760,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARImageNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 892,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARImageNode.swift",
+      "kind": "StringLiteral",
+      "offset": 993,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARLinkNode.swift",
+      "kind": "FloatLiteral",
+      "offset": 1051,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARLinkNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1127,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARLinkNode.swift",
+      "kind": "StringLiteral",
+      "offset": 1228,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARLinkNode.swift",
+      "kind": "StringLiteral",
+      "offset": 49,
+      "length": 11,
+      "value": "\"VARkit.VARLinkNode\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARSyncSupervisor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 451,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARSyncSupervisor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 850,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARSyncSupervisor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1027,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARSyncSupervisor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1098,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARSyncSupervisor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1154,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARSyncSupervisor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1191,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARSyncSupervisor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1309,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARSyncSupervisor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2209,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARSyncSupervisor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3170,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARSyncSupervisor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3302,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARSyncSupervisor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3485,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARReferenceImage.swift",
+      "kind": "StringLiteral",
+      "offset": 20,
+      "length": 17,
+      "value": "\"VARkit.VARReferenceImage\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARReferenceImage.swift",
+      "kind": "StringLiteral",
+      "offset": 20,
+      "length": 17,
+      "value": "\"VARkit.VARReferenceImage\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARFullscreenVideoPlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1192,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 207,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARRenderer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1074,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARRenderer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2035,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 427,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 458,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 479,
+      "length": 26,
+      "value": "\"https:\/\/api.visionar.com\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 526,
+      "length": 26,
+      "value": "\"https:\/\/api.v-create.com\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 576,
+      "length": 33,
+      "value": "\"https:\/\/api.visionarstaging.com\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 717,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1007,
+      "length": 7,
+      "value": "\"Close\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1098,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1168,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1183,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1253,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1268,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1381,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1396,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1519,
+      "length": 3,
+      "value": "-16"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1535,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1584,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1708,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1903,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2069,
+      "length": 22,
+      "value": "\".serialSceneKitQueue\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2228,
+      "length": 120,
+      "value": "\"Missing app key. Please provide a valid visionar app key in prepareForSegue before navigating to the VARViewController\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2434,
+      "length": 34,
+      "value": "\"Connecting to the staging server\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2530,
+      "length": 44,
+      "value": "\"Connecting to legacy api server at \""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2573,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3043,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3216,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3283,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3887,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3979,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5116,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5796,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5850,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6119,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6339,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6470,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6622,
+      "length": 17,
+      "value": "\"Did remove node\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7695,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7698,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7701,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 7781,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 7807,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 7822,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8326,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8412,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8499,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8588,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8679,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8873,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10353,
+      "length": 32,
+      "value": "\"invalid image found: \""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10384,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10592,
+      "length": 43,
+      "value": "\"Finished all validations: \""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10634,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 12628,
+      "length": 22,
+      "value": "\"TRACKING UNAVAILABLE\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 12692,
+      "length": 17,
+      "value": "\"TRACKING NORMAL\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 12770,
+      "length": 36,
+      "value": "\"TRACKING LIMITED\nExcessive motion\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 12872,
+      "length": 30,
+      "value": "\"TRACKING LIMITED\nLow detail\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 12960,
+      "length": 14,
+      "value": "\"Initializing\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 13032,
+      "length": 38,
+      "value": "\"Recovering from session interruption\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 13107,
+      "length": 22,
+      "value": "\"TRACKING UNAVAILABLE\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 13263,
+      "length": 55,
+      "value": "\"Try slowing down your movement, or reset the session.\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 13384,
+      "length": 55,
+      "value": "\"Try pointing at a flat surface, or reset the session.\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 13497,
+      "length": 84,
+      "value": "\"Try returning to where you were when the interruption began, or reset the session.\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 13842,
+      "length": 74,
+      "value": "\"CameraDiDChangeTrackingState: \""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 13915,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 14442,
+      "length": 4,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 14510,
+      "length": 39,
+      "value": "\"THE AR Session failed \""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 14548,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 14648,
+      "length": 111,
+      "value": "\"SESSION INTERRUPTED\nThe session will be reset after the interruption has ended.\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 14851,
+      "length": 19,
+      "value": "\"RESETTING SESSION\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14981,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 68,
+      "length": 20,
+      "value": "\"configuration.json\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 129,
+      "length": 13,
+      "value": "\"lastUpdated\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 172,
+      "length": 26,
+      "value": "\"https:\/\/api.visionar.com\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 230,
+      "length": 26,
+      "value": "\"https:\/\/api.v-create.com\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARTarget.swift",
+      "kind": "StringLiteral",
+      "offset": 70,
+      "length": 7,
+      "value": "\"IMAGE\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARTarget.swift",
+      "kind": "StringLiteral",
+      "offset": 95,
+      "length": 7,
+      "value": "\"VIDEO\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARTarget.swift",
+      "kind": "StringLiteral",
+      "offset": 120,
+      "length": 7,
+      "value": "\"AUDIO\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARTarget.swift",
+      "kind": "StringLiteral",
+      "offset": 144,
+      "length": 6,
+      "value": "\"LINK\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARTarget.swift",
+      "kind": "StringLiteral",
+      "offset": 174,
+      "length": 14,
+      "value": "\"GREEN_SCREEN\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARTarget.swift",
+      "kind": "StringLiteral",
+      "offset": 70,
+      "length": 7,
+      "value": "\"IMAGE\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARTarget.swift",
+      "kind": "StringLiteral",
+      "offset": 95,
+      "length": 7,
+      "value": "\"VIDEO\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARTarget.swift",
+      "kind": "StringLiteral",
+      "offset": 120,
+      "length": 7,
+      "value": "\"AUDIO\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARTarget.swift",
+      "kind": "StringLiteral",
+      "offset": 144,
+      "length": 6,
+      "value": "\"LINK\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARTarget.swift",
+      "kind": "StringLiteral",
+      "offset": 174,
+      "length": 14,
+      "value": "\"GREEN_SCREEN\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARNode.swift",
+      "kind": "BooleanLiteral",
+      "offset": 335,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARNode.swift",
+      "kind": "StringLiteral",
+      "offset": 402,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARNode.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1027,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARNode.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1100,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARNode.swift",
+      "kind": "StringLiteral",
+      "offset": 1135,
+      "length": 85,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARNode.swift",
+      "kind": "StringLiteral",
+      "offset": 1163,
+      "length": 1,
+      "value": "\"\/targets\/\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARNode.swift",
+      "kind": "StringLiteral",
+      "offset": 1183,
+      "length": 1,
+      "value": "\"\/content\/\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARNode.swift",
+      "kind": "StringLiteral",
+      "offset": 1204,
+      "length": 1,
+      "value": "\"\/preparecontent\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARNode.swift",
+      "kind": "StringLiteral",
+      "offset": 1291,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARNode.swift",
+      "kind": "StringLiteral",
+      "offset": 1331,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARNode.swift",
+      "kind": "StringLiteral",
+      "offset": 1400,
+      "length": 8,
+      "value": "\"appkey\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARNode.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1571,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1730,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARNode.swift",
+      "kind": "StringLiteral",
+      "offset": 1763,
+      "length": 36,
+      "value": "\"Response StatusCode: \""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARNode.swift",
+      "kind": "StringLiteral",
+      "offset": 1798,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARNode.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1836,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARNode.swift",
+      "kind": "StringLiteral",
+      "offset": 1955,
+      "length": 34,
+      "value": "\"response did no include any data\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARNode.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2026,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARNode.swift",
+      "kind": "StringLiteral",
+      "offset": 2300,
+      "length": 37,
+      "value": "\"provided data was not a correct url\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARNode.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2374,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARNode.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2461,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARNode.swift",
+      "kind": "StringLiteral",
+      "offset": 104,
+      "length": 7,
+      "value": "\"VARkit.VARNode\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARNode.swift",
+      "kind": "StringLiteral",
+      "offset": 2643,
+      "length": 47,
+      "value": "\"presentContent must be overwritten by subnode\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGreenScreenNode.swift",
+      "kind": "StringLiteral",
+      "offset": 296,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGreenScreenNode.swift",
+      "kind": "FloatLiteral",
+      "offset": 756,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGreenScreenNode.swift",
+      "kind": "StringLiteral",
+      "offset": 921,
+      "length": 6,
+      "value": "\"play\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGreenScreenNode.swift",
+      "kind": "FloatLiteral",
+      "offset": 1078,
+      "length": 4,
+      "value": "0.01"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGreenScreenNode.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1212,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGreenScreenNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1299,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGreenScreenNode.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1451,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGreenScreenNode.swift",
+      "kind": "StringLiteral",
+      "offset": 1545,
+      "length": 6,
+      "value": "\"play\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGreenScreenNode.swift",
+      "kind": "StringLiteral",
+      "offset": 1755,
+      "length": 6,
+      "value": "\"play\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGreenScreenNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1920,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGreenScreenNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1930,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGreenScreenNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1939,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGreenScreenNode.swift",
+      "kind": "FloatLiteral",
+      "offset": 1949,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGreenScreenNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2074,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGreenScreenNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2125,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGreenScreenNode.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2554,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGreenScreenNode.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3079,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGreenScreenNode.swift",
+      "kind": "StringLiteral",
+      "offset": 3177,
+      "length": 6,
+      "value": "\"play\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGreenScreenNode.swift",
+      "kind": "StringLiteral",
+      "offset": 3350,
+      "length": 5,
+      "value": "\"png\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARGreenScreenNode.swift",
+      "kind": "StringLiteral",
+      "offset": 82,
+      "length": 18,
+      "value": "\"VARkit.VARGreenScreenNode\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/ChromaKeyMaterial.swift",
+      "kind": "FloatLiteral",
+      "offset": 376,
+      "length": 4,
+      "value": "0.50"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/ChromaKeyMaterial.swift",
+      "kind": "FloatLiteral",
+      "offset": 401,
+      "length": 5,
+      "value": "0.001"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/ChromaKeyMaterial.swift",
+      "kind": "StringLiteral",
+      "offset": 817,
+      "length": 755,
+      "value": "\"uniform vec3 c_colorToReplace;\nuniform float c_thresholdSensitivity;\nuniform float c_smoothing;\n\n#pragma transparent\n#pragma body\n\nvec3 textureColor = _surface.diffuse.rgb;\n\nfloat maskY = 0.2989 * c_colorToReplace.r + 0.5866 * c_colorToReplace.g + 0.1145 * c_colorToReplace.b;\nfloat maskCr = 0.7132 * (c_colorToReplace.r - maskY);\nfloat maskCb = 0.5647 * (c_colorToReplace.b - maskY);\n\nfloat Y = 0.2989 * textureColor.r + 0.5866 * textureColor.g + 0.1145 * textureColor.b;\nfloat Cr = 0.7132 * (textureColor.r - Y);\nfloat Cb = 0.5647 * (textureColor.b - Y);\n\nfloat blendValue = smoothstep(c_thresholdSensitivity, c_thresholdSensitivity + c_smoothing, distance(vec2(Cr, Cb), vec2(maskCr, maskCb)));\n\nfloat a = blendValue;\n_surface.transparent.a = a;\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/ChromaKeyMaterial.swift",
+      "kind": "StringLiteral",
+      "offset": 1739,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/ChromaKeyMaterial.swift",
+      "kind": "FloatLiteral",
+      "offset": 2068,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/ChromaKeyMaterial.swift",
+      "kind": "FloatLiteral",
+      "offset": 2076,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/ChromaKeyMaterial.swift",
+      "kind": "FloatLiteral",
+      "offset": 2084,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/ChromaKeyMaterial.swift",
+      "kind": "StringLiteral",
+      "offset": 2118,
+      "length": 18,
+      "value": "\"c_colorToReplace\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/ChromaKeyMaterial.swift",
+      "kind": "StringLiteral",
+      "offset": 2206,
+      "length": 13,
+      "value": "\"c_smoothing\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/ChromaKeyMaterial.swift",
+      "kind": "StringLiteral",
+      "offset": 2311,
+      "length": 24,
+      "value": "\"c_thresholdSensitivity\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/ChromaKeyMaterial.swift",
+      "kind": "StringLiteral",
+      "offset": 30,
+      "length": 17,
+      "value": "\"VARkit.ChromaKeyMaterial\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARAudioNode.swift",
+      "kind": "StringLiteral",
+      "offset": 251,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARAudioNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 632,
+      "length": 3,
+      "value": "600"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARAudioNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 645,
+      "length": 3,
+      "value": "600"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARAudioNode.swift",
+      "kind": "StringLiteral",
+      "offset": 718,
+      "length": 6,
+      "value": "\"play\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARAudioNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 787,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARAudioNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 813,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARAudioNode.swift",
+      "kind": "FloatLiteral",
+      "offset": 844,
+      "length": 4,
+      "value": "-1.0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARAudioNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 930,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARAudioNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 940,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARAudioNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 949,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARAudioNode.swift",
+      "kind": "FloatLiteral",
+      "offset": 959,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARAudioNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1149,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARAudioNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1387,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARAudioNode.swift",
+      "kind": "StringLiteral",
+      "offset": 1516,
+      "length": 6,
+      "value": "\"play\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARAudioNode.swift",
+      "kind": "StringLiteral",
+      "offset": 1750,
+      "length": 7,
+      "value": "\"pause\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARAudioNode.swift",
+      "kind": "StringLiteral",
+      "offset": 1963,
+      "length": 5,
+      "value": "\"png\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARAudioNode.swift",
+      "kind": "StringLiteral",
+      "offset": 2261,
+      "length": 6,
+      "value": "\"play\""
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARAudioNode.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2475,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thomas\/Development\/Visionar-iOS\/VARkit\/VARAudioNode.swift",
+      "kind": "StringLiteral",
+      "offset": 3060,
+      "length": 6,
+      "value": "\"play\""
+    }
+  ]
+}

@@ -6,6 +6,15 @@ target 'Example' do
   use_frameworks!
 
   # Pods for Example
-  pod 'VARkit', '~> 1.0'
+  pod 'VARkit', '~> 1.2'
+  pod 'SwiftPhotoGallery'
+  pod 'ZIPFoundation', '~> 0.9'
+end
 
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
+    end
+  end
 end
